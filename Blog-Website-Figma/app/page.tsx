@@ -13,14 +13,9 @@ export default function Home() {
 
       <CardSection/>      
 
-      <div className="pt-14 px-36">
-        <h2 className="text-black text-xl font-bold">Featured works</h2>
-        <Dashboard/>
-      </div>
+      <Dashboard/>
 
-      <div>
-        <Footer/>
-      </div>
+      <Footer/>
     </>
   );
 }

@@ -6,7 +6,8 @@ import Image3 from "../public/Rectangle 34.png"
 
 export default function Dashboard() {
   return (
-    <>
+    <div className="pt-14 px-36">
+      <h2 className="text-black text-xl font-bold">Featured works</h2>
       {/* Image-1 */}
       <div className="flex justify-between gap-8 py-20">
         <div>
@@ -51,6 +52,6 @@ export default function Dashboard() {
           <p className="text-[#21243D] text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consiquat duis enim velit mollit. Exertication veniam consequat sunt nostrud amet.</p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
