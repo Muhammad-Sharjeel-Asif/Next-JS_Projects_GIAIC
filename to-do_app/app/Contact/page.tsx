@@ -11,7 +11,7 @@ const ContactPage = () => {
         <section className="bg-white p-6 rounded-lg shadow-md max-w-lg mx-auto">
           <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
           <p className="text-lg mb-6">
-            If you have any questions about the To-Do app, or if you'd like to collaborate on a project, feel free to reach out!
+            If you have any questions about the To-Do app, or if you would like to collaborate on a project, feel free to reach out!
           </p>
 
           <form action="https://api.web3forms.com/submit"

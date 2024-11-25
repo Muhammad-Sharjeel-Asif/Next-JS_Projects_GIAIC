@@ -52,7 +52,7 @@ export const InputSec = () => {
                         name='todoTitle'
                         id='todoTitle'
                         value={newTodos}
-                        onChange={(e: any) => setNewTodos(e.target.value)}
+                        onChange={(e) => setNewTodos(e.target.value)}
                         placeholder="Enter To-do here"
                         className="w-full max-w-md p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500"
                     />
@@ -68,8 +68,7 @@ export const InputSec = () => {
 
                 <ul id="listContainer">
                     {todo.map((todo: string, index: number) => (
-                        <div className="flex max-w-full bg-slate-600 justify-between px-5 m-5 rounded-xl">
-
+                        <div key={index} className="flex max-w-full bg-slate-600 justify-between px-5 m-5 rounded-xl">
                             <div className="w-3/4 ">
                                 <li id="list" key={index} className="list-none ml-16 text-2xl pt-4 checked:line-through"
                                     style={{

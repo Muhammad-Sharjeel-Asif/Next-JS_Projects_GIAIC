@@ -19,7 +19,7 @@ const AboutPage = () => {
           <h2 className="text-3xl font-bold mb-4">Purpose of the App</h2>
           <p className="text-lg mb-4">
             The purpose of the app is to showcase my ability to create functional and aesthetically pleasing web applications. 
-            It's a practical tool for users to manage their tasks and for me to demonstrate my understanding of Next JS, TypeScript, 
+            Its a practical tool for users to manage their tasks and for me to demonstrate my understanding of Next JS, TypeScript, 
             and UI design principles.
           </p>
 
